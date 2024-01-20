@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1h0m0s
-  path: ./manifests/monitoring/kube-prometheus-stack
+  path: ./monitoring
   prune: false
   sourceRef:
     kind: GitRepository
